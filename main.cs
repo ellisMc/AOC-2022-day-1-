@@ -28,6 +28,7 @@ class Program {
         highest3 = temp;
       }
     }
+    Console.WriteLine(highest);
     Console.WriteLine(highest+highest2+highest3);
   }
 }
