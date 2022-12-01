@@ -3,11 +3,10 @@ using System;
 class Program {
   public static void Main (string[] args) {
     string [] list = System.IO.File.ReadAllLines(@"input.txt");
-    int highest =  0;
+    int highest = 0;
     int highest2 = 0;
     int highest3 = 0;
     int temp = 0;
-    
     foreach (string i in list){
       if(i != ""){
         temp+=Convert.ToInt32(i);
